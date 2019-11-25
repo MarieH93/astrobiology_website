@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Ultimate HTML Cheatsheet</title>
+  </head>
+  <body>
+
+
+
+    <h1>The Ultimate HTML Cheatsheet (this is a h1 heading)</h1>
+
+      <h2>The title</h2>
+
+        <p>The name of the webpage you're on will be shown on the tab in your browser. This is specified in HTML as the head portion of the script, tagged as title, and comes before the body.</p>
+
+      <h2>The formatting of Headings and Paragraphs (this is an h2 heading)</h2>
+
+        <p>For every element in the HTML body, you can decide if it will be a heading or a paragraph.</p>
+
+        <p>With headings, there are 6 levels, tag h1 being the highest (largest print).</p>
+
+        <p>Paragraphs are tagged with a p instead. Giving each paragraph an opening and closing tag automatically separates them with a gap in between. The ps aren't numbered.</p>
+
+        <p>For more structure in your HTML file, you can also manually instert blank lines by using the br tag. The br tag is a special type of tag (called a 'void tag'); you don't need a closing br tag, just un opening one.</p>
+
+        <br>
+
+        <p>Presenting text in italics on the website requires the <i> tag and closing tag </i> before and after the text your want to write in italics.</p>
+
+        <h2>Comments</h2>
+
+        <p>You can write comments in your html code, which won't be displayed in the browser.</p>
+
+        <!--- This is a comment. It won't show up in the page, but you will be able to see it if you view the page source (be warned!) -->
+
+
+        <h2>Lists</h2>
+        <p>Html has two basic types of list:</p>
+
+        <ol>
+          <li>Ordered lists (&lt;ol&gt;) - displays a numbered list</li>
+          <li>Unordered lists (&lt;ul&gt;) - displays a list of bullet points</li>
+        </ol>
+
+        <p>Both have the same basic structure.</p>
+
+        <ul>
+          <li>An opening list tag</li>
+          <li>Many list items (&lt;li&gt;)</li>
+          <li>A closing list tags</li>
+        </ul>
+
+        <p>You don't often see lists in their basic form, but lists are heavily used in websites; dropdown menus are often cleverly styled lists.</p>
+
+        <h2>Links</h2>
+        <p>Links look like this: <a href="http://www.facebook.com">link to facebook</a>. You specify where you want the link to point by specifying the 'href' inside the &lt;a&gt; tag.</p>
+
+        <p>The href can also point to local files. For example, <a href="./example.html">this</a> is a link to this page you're reading at the moment. Notice that the protocol and host part of the URL has been replaced by a "."</p>
+
+        <h2>Images</h2>
+        <p>Images are a bit like links. You specify the location of the image with the 'src' property in the &lt;img&gt; tag. Note that img tags are like br tags: they don't come in pairs. The 'alt' property should be used to provide a description of the image in case it won't load or the user is partially sighted.</p>
+
+        <p>Images can be stored on the same host ... </p>
+        <img src="./duck.jpg" alt="A local image" width="200px">
+
+        <p>... or on another server entirely.</p>
+        <img src="http://jerrymahoney.files.wordpress.com/2012/06/kitten.jpg" alt="A picture of a cat." width="200px">
+
+
+        <h2>Tables</h2>
+        <p>Tables are used for holding data</p>
+        <table class='table'>
+          <tr>
+            <th>Name</th>
+            <th>Profession</th>
+          </tr>
+          <tr>
+            <td>Rosamund</td>
+            <td>Cheese Taster</td>
+          </tr>
+          <tr>
+            <td>Dave</td>
+            <td>Stamp collector</td>
+          </tr>
+        </table>
+
+
+
+      </body>
+      </html>
