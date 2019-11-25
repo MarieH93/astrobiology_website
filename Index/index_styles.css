@@ -20,10 +20,16 @@ h1, h2 {
 
 h1 {
   font-size:5em;
+  padding-top:0.5em;
+  padding-bottom:0.15em;
+  font-family:"Times New Roman";
+  text-decoration: underline;
 }
 
 h2 {
   font-size:2.5em;
+  font-family:"Courier New";
+  text-shadow: 3px 3px grey;
 }
 
 h3 {
