@@ -1,90 +1,84 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>The Ultimate HTML Cheatsheet</title>
+<!-- saved from url=(0116)file:///C:/Users/Nisha/Documents/UCL%20MSc%20Planetary%20Science/Code%20first%20girls/beginners-week-five/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <link rel="stylesheet" href="./Planetary Bodies_files/bootstrap.min.css" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="./Planetary Bodies_files/styles.css" rel="stylesheet">
   </head>
+
   <body>
 
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="file:///C:/Users/Nisha/Documents/UCL%20MSc%20Planetary%20Science/Code%20first%20girls/beginners-week-five/index.html#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-
-    <h1>The Ultimate HTML Cheatsheet (this is a h1 heading)</h1>
-
-      <h2>The title</h2>
-
-        <p>The name of the webpage you're on will be shown on the tab in your browser. This is specified in HTML as the head portion of the script, tagged as title, and comes before the body.</p>
-
-      <h2>The formatting of Headings and Paragraphs (this is an h2 heading)</h2>
-
-        <p>For every element in the HTML body, you can decide if it will be a heading or a paragraph.</p>
-
-        <p>With headings, there are 6 levels, tag h1 being the highest (largest print).</p>
-
-        <p>Paragraphs are tagged with a p instead. Giving each paragraph an opening and closing tag automatically separates them with a gap in between. The ps aren't numbered.</p>
-
-        <p>For more structure in your HTML file, you can also manually instert blank lines by using the br tag. The br tag is a special type of tag (called a 'void tag'); you don't need a closing br tag, just un opening one.</p>
-
-        <br>
-
-        <p>Presenting text in italics on the website requires the <i> tag and closing tag </i> before and after the text your want to write in italics.</p>
-
-        <h2>Comments</h2>
-
-        <p>You can write comments in your html code, which won't be displayed in the browser.</p>
-
-        <!--- This is a comment. It won't show up in the page, but you will be able to see it if you view the page source (be warned!) -->
-
-
-        <h2>Lists</h2>
-        <p>Html has two basic types of list:</p>
-
-        <ol>
-          <li>Ordered lists (&lt;ol&gt;) - displays a numbered list</li>
-          <li>Unordered lists (&lt;ul&gt;) - displays a list of bullet points</li>
-        </ol>
-
-        <p>Both have the same basic structure.</p>
-
-        <ul>
-          <li>An opening list tag</li>
-          <li>Many list items (&lt;li&gt;)</li>
-          <li>A closing list tags</li>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="file:///C:/Users/Nisha/Documents/UCL%20MSc%20Planetary%20Science/Code%20first%20girls/beginners-week-five/index.html#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///C:/Users/Nisha/Documents/UCL%20MSc%20Planetary%20Science/Code%20first%20girls/beginners-week-five/index.html#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///C:/Users/Nisha/Documents/UCL%20MSc%20Planetary%20Science/Code%20first%20girls/beginners-week-five/index.html#">Another Link</a>
+          </li>
         </ul>
+      </div>
+    </nav>
 
-        <p>You don't often see lists in their basic form, but lists are heavily used in websites; dropdown menus are often cleverly styled lists.</p>
+    <main role="main" class="container">
 
-        <h2>Links</h2>
-        <p>Links look like this: <a href="http://www.facebook.com">link to facebook</a>. You specify where you want the link to point by specifying the 'href' inside the &lt;a&gt; tag.</p>
+      <div class="starter-template">
+        <h1>Planetary Bodies</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      </div>
 
-        <p>The href can also point to local files. For example, <a href="./example.html">this</a> is a link to this page you're reading at the moment. Notice that the protocol and host part of the URL has been replaced by a "."</p>
+      <!-- columns -->
+      <div class="row">
+        <div class="col-sm">
+          <img src="./Planetary Bodies_files/mars.jpg" alt="mars">
+          Mars
+        </div>
+        <div class="col-sm">
+          <img src="./Planetary Bodies_files/neptune.jpg" alt="neptune">
+          Neptune
+        </div>
+        <div class="col-sm">
+          <img src="./Planetary Bodies_files/saturn.png" alt="saturn">
+          Saturn
+        </div>
+      </div>
 
-        <h2>Images</h2>
-        <p>Images are a bit like links. You specify the location of the image with the 'src' property in the &lt;img&gt; tag. Note that img tags are like br tags: they don't come in pairs. The 'alt' property should be used to provide a description of the image in case it won't load or the user is partially sighted.</p>
+      <div class="row">
+        <div class="col-sm">
+          <p>Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after Mercury. In English, Mars carries a name of the Roman god of war and is often referred to as the 'Red Planet'</p>
+          </div>
+          <div class=" col-sm">
+            <p>Neptune is the eighth and farthest known planet from the Sun in the Solar System. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. </p>
+          </div>
+          <div class=" col-sm">
+           <p>Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius about nine times that of Earth. </p>
+        </div>
+    </div></main><!-- /.container -->
 
-        <p>Images can be stored on the same host ... </p>
-        <img src="./duck.jpg" alt="A local image" width="200px">
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./Planetary Bodies_files/jquery-3.3.1.slim.min.js.download" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./Planetary Bodies_files/popper.min.js.download"></script>
+    <script src="./Planetary Bodies_files/bootstrap.min.js.download"></script>
+  
 
-        <p>... or on another server entirely.</p>
-        <img src="http://jerrymahoney.files.wordpress.com/2012/06/kitten.jpg" alt="A picture of a cat." width="200px">
-
-
-        <h2>Tables</h2>
-        <p>Tables are used for holding data</p>
-        <table class='table'>
-          <tr>
-            <th>Name</th>
-            <th>Profession</th>
-          </tr>
-          <tr>
-            <td>Rosamund</td>
-            <td>Cheese Taster</td>
-          </tr>
-          <tr>
-            <td>Dave</td>
-            <td>Stamp collector</td>
-          </tr>
-        </table>
-
-
-
-      </body>
-      </html>
+</body></html>
