@@ -27,17 +27,16 @@ h2 {
 }
 
 h3 {
-  font-size:1em;
-  font-style: normal;
+  font-size:2em;;
 }
 
 img {
   width: 550px;
-  height: 520px;
+  height: 450px;
   display: flex;
   padding: 20px;
   margin: 0 auto;
-  border-radius: 300px;
+  border-radius: 0px;
 }
 
 p {
