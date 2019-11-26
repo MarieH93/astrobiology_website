@@ -10,11 +10,11 @@ div.navbar {
  min-height: 80px;
 }
 
-div {
+div:not  {
   width:100vw;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   text-align: center;
 }
 
@@ -24,6 +24,8 @@ h1 {
   padding-bottom:0.15em;
   font-family:"Times New Roman";
   text-decoration: underline;
+  color:rgb(255, 102, 0);
+  font-weight:550;
 }
 
 h2 {
@@ -33,11 +35,21 @@ h2 {
 }
 
 h3 {
+  padding-bottom:1em;
+}
+
+h4 {
   font-size:1em;
   font-style: normal;
 }
+.carousel-item{
+	height: 450px;
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+}
 
-img {
+img:not(.d-block) {
   width: 550px;
   height: 520px;
   display: flex;
@@ -53,7 +65,7 @@ p {
   text-align: center;
 }
 
-a {
+a:not{
   color: rgb(0,0,0);
 }
 
@@ -97,11 +109,15 @@ li {
   transition:0.6s ease;
 }
 
-li:hover {
+li  {
   font-size: 1.2em;
   transition: 0.6s ease;
 }
 
 span {
   font-size: 5em;
+}
+
+.contrast {
+	margin-top: 100px;
 }
