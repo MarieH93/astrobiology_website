@@ -18,3 +18,12 @@ margin: 0 auto;
 /*Location of the image*/
   background-image: url(https://www.publicdomainpictures.net/pictures/10000/velka/starry-night-871287410454UmtH.jpg);
 }
+
+div.contrast {
+  background-color: DimGrey;
+  color: black;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
