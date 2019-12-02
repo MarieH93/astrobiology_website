@@ -1,4 +1,13 @@
 body {
+  background-image: url(https://www.publicdomainpictures.net/pictures/10000/velka/starry-night-871287410454UmtH.jpg);
+  color: rgb(255, 255, 255);
+  font-family: helvetica;
+  margin: 0;
+}
+
+div.navbar {
+ min-height: 80px;
+}
   color: rgb(255, 255, 255);
 }
 .starter-template {
