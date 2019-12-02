@@ -14,7 +14,7 @@ div {
   width:100vw;
 }
 
-h1, h2 {
+h1, h2, h4 {
   text-align: center;
 }
 
@@ -29,6 +29,10 @@ h2 {
 h3 {
   font-size:1em;
   font-style: normal;
+}
+
+h4 {
+  font-size: 2em;
 }
 
 img {
@@ -73,7 +77,7 @@ li#lowest {
 }
 
 div.contrast {
-  background-color: DimGrey;
+  background-color: Ivory;
   color: black;
   display: flex;
   justify-content:center;
