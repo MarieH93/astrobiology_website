@@ -36,6 +36,11 @@ h4 {
   color: rgb(255, 102, 0);
 }
 
+h5 {
+  font-size: 2em;
+  color: rgb(255, 102, 0);
+}
+
 img {
   width: 700px;
   height: 520px;
@@ -107,10 +112,12 @@ span {
 
 
 .simple-subscription-form {
-  background: #0c3e5f;
+  background: grey;
   color: #fefefe;
-  padding: 2rem;
+  padding: 5rem;
   border-radius: 0;
+  align-items: left;
+
 }
 
 .simple-subscription-form .button {
