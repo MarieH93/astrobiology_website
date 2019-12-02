@@ -43,7 +43,8 @@ p {
   width: auto;
   margin: 0 10vw 10vh 10vw;
   font-size: 1em;
-  text-align: center;
+  text-align: left;
+  margin-left: auto;
 }
 
 a {
