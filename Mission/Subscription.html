@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" "shrink-to-fit=yes">
+
+    <title>Error 303 Life not found</title>
+
+    <!-- Styles: Bootstrap, then CSS on top -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./Mission_styles.css">
+  </head>
+
+  <body>
+    <!-- add the navogation bar with bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <a class="navbar-brand" href="#">Navigation</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="#">Home </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="Mars/Mars.html">Mars Facts</a>
+         </li>
+         <li clas= "nav-item">
+           <a class="nav-link" href="Life/Life.html">Tough Life</a>
+         </li>
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             The Mission
+           </a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <a class="dropdown-item" href="Mission/Exploration.html">Exploration</a>
+             <a class="dropdown-item" href="Mission/Terraforming.html">Terraformation</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="Subscription.html">Subscribe for Mission Updates!<span class="sr-only">(current)</span></a>
+           </div>
+         </li>
+       </ul>
+       <form class="form-inline my-2 my-lg-0">
+         <input class="form-control mr-sm-2" type="search" placeholder="Where to?" aria-label="Search">
+         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Explore</button>
+       </form>
+     </div>
+   </nav>
+
+
+    <div>
+      <h2>Stay updated about the newest Mars Mission!</h2>
+
+      <!-- Countdown to launch -->
+      <h4> Countdown to launch of Mars Mission 2020: </h4>
+      <h4 id="launch countdown"></h4>
+
+      <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jul 17, 2020 21:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("launch countdown").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+        // When the count down is finished, write result
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("launch countdown").innerHTML = "LIFTOFF!";
+          }
+        }, 1000);
+      </script>
+
+    </div>
+
+        <div class="simple-subscription-form">
+          <form>
+            <h4>Subscribe to our newsletter!</h4>
+            <p>Receive the latest news directly from our team. Just enter your mail and let's explore space together:</p>
+            <div class="input-group">
+              <span class="input-group-label">
+                <i class="fa fa-envelope"></i>
+              </span>
+              <input class="input-group-field" type="email" placeholder="Email" required>
+              <button class="button">Join the Marsians</button>
+          </form>
+        </div>
+
+
+</body>
+
+</html>

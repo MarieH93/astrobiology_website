@@ -104,3 +104,16 @@ li:hover {
 span {
   font-size: 5em;
 }
+
+
+.simple-subscription-form {
+  background: #0c3e5f;
+  color: #fefefe;
+  padding: 2rem;
+  border-radius: 0;
+}
+
+.simple-subscription-form .button {
+  margin-bottom: 0;
+  border-radius: 0 0 0 0;
+}
