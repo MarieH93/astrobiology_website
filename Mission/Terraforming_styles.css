@@ -1,8 +1,74 @@
-body, html{
-  height: 100%;
-  background: #222222;
-  font-family: 'Helvetica', sans-serif;
+body{
+/*Location of the image*/
+  background-image: url(https://www.publicdomainpictures.net/pictures/10000/velka/starry-night-871287410454UmtH.jpg);
+  color: rgb(255, 255, 255);
+  font-family: helvetica;
+  margin: 0;
 }
+
+div.navbar {
+ min-height: 80px;
+ justify-content: space-between;
+ display: flex;
+}
+
+div {
+  width:80vw;
+}
+
+h1, h2, h4 {
+  text-align: center;
+}
+
+h1 {
+  font-size:5em;
+}
+
+h2 {
+  font-size:2.5em;
+}
+
+
+
+p {
+  width: auto;
+  margin: 0 10vw 10vh 10vw;
+  font-size: 1em;
+  text-align: left;
+}
+
+a {
+  color: rgb(0,0,0);
+}
+
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 1em;
+  justify-content: space-evenly;
+  display: flex;
+  margin: 0 10vw 10vh 10vw
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 20px;
+  transition:0.6s ease;
+}
+
+li:hover {
+  font-size: 1.2em;
+  transition: 0.6s ease;
+}
+
+
 
 /*----------quiz.css---------------*/
 
@@ -20,10 +86,11 @@ body, html{
     color: #fff;
     border-bottom-right-radius: 55px;
     border-top-left-radius: 55px;
+    align-self: flex-start;
 }
 
 #qid{
-    margin-right: 22px;
+    margin-right: 10px;
     background-color: #c46b06;
     color: #fff;
 }
