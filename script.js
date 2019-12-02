@@ -14,7 +14,7 @@ $(function(){
         {'Q':'?', 'A':2,'C':['A','A2','A3']},
         {'Q':'What is the most immediate obstacle to colonising Mars?', 'A':3,'C':['an army of tardigrades','angry little green men','the lack of an atmosphere']},
         {'Q':'Is there any liquid water on Mars?', 'A':1,'C':['no - if there is water, it will be frozen','yes! whole oceans','who needs water anyways....?']},
-        {'Q':'Would you weigh more or less on Mars than on Earth?', 'A':2,'C':['Less! We would be all floaty!','About the same ... so boring.','More! Especially after the X-Mas binge!']},
+        {'Q':'Would you weigh more or less on Mars than on Earth?', 'A':2,'C':['About the same ... so boring.','Less! We would be all floaty!','More! Especially after the X-Mas binge!']},
         {'Q':'When will humans be going to Mars?', 'A':3,'C':['Apparently Rosalind Franklin in going next year.','Well, who knows ...','In 2033 - according to Trump. Not even joking.']}
     ];
 
