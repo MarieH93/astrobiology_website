@@ -14,7 +14,7 @@ div {
   width:100vw;
 }
 
-h1, h2 {
+h1, h2, h4 {
   text-align: center;
 }
 
@@ -31,20 +31,25 @@ h3 {
   font-style: normal;
 }
 
+h4 {
+  font-size: 2em;
+  color: rgb(255, 102, 0);
+}
+
 img {
-  width: 550px;
+  width: 700px;
   height: 520px;
   display: flex;
   padding: 20px;
   margin: 0 auto;
-  border-radius: 300px;
+  border-radius: 0px;
 }
 
 p {
   width: auto;
   margin: 0 10vw 10vh 10vw;
   font-size: 1em;
-  text-align: center;
+  text-align: left;
 }
 
 a {
@@ -73,7 +78,7 @@ li#lowest {
 }
 
 div.contrast {
-  background-color: DimGrey;
+  background-color: Ivory;
   color: black;
   display: flex;
   justify-content:center;
