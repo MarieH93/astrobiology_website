@@ -54,42 +54,41 @@
     <div>
       <h2>Humanity's mission to explore Mars</h2>
 
-      <!-- Display the countdown timer in an element -->
-<h4> Countdown to launch of Mars Mission 2020: </h4>
-<h4 id="launch countdown"></h4>
+      <!-- Countdown to launch -->
+      <h4> Countdown to launch of Mars Mission 2020: </h4>
+      <h4 id="launch countdown"></h4>
 
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Jul 17, 2020 21:00:00").getTime();
+      <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jul 17, 2020 21:00:00").getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+        // Update the count down every 1 second
+        var x = setInterval(function() {
 
-  // Get today's date and time
-  var now = new Date().getTime();
+        // Get today's date and time
+        var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
-  document.getElementById("launch countdown").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+        // Display the result in the element with id="demo"
+        document.getElementById("launch countdown").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
 
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("launch countdown").innerHTML = "LIFTOFF!";
-  }
-}, 1000);
-</script>
+        // When the count down is finished, write result
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("launch countdown").innerHTML = "LIFTOFF!";
+          }
+        }, 1000);
+      </script>
 
-      <iframe src='https://mars.nasa.gov/embed/22331/' width='100%' height='400'  scrolling='no' frameborder='0'></iframe>
 
     </div>
 
@@ -159,10 +158,13 @@ var x = setInterval(function() {
   </a>
 </div>
         <br>
-        And it doesn't end here! The next missions are already under way. They will be
-        focusing on some very interesting ares, as outlined in this image.
+        And it doesn't end here! The next missions are already being planned. The newest, Rosalind Franklin, will launch in July 2020!
 
-<div class="contrast2">
+        <br>
+        While we wait, why not explore the surface of Mars yourself, using Google Mars:
+        </p>
+
+<div class="contrast">
         <iframe id="inlineFrame Google Mars"
           title="Inline Frame Google Mars"
           width=100%
@@ -171,14 +173,6 @@ var x = setInterval(function() {
           src="https://www.google.com/mars/#lat=-8.285436&lon=-95.392086">
         </iframe>
 </div>
-
-        <br>
-        The Rosalind Franklin Rover has already been named, but if you would like
-        to contribute to the newest mission, why not drop by
-        <a href="https://www.livescience.com/52332-why-is-water-needed-for-life.html">here</a>,
-        and help by naming the newest Mars Rover? Maybe don't go for Rovy McRoveface ... that's been done.
-      </p>
-
     </div>
 
     <div class="contrast">

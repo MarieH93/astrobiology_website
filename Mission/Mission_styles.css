@@ -33,10 +33,11 @@ h3 {
 
 h4 {
   font-size: 2em;
+  color: rgb(255, 102, 0);
 }
 
 img {
-  width: 550px;
+  width: 700px;
   height: 520px;
   display: flex;
   padding: 20px;
@@ -48,7 +49,7 @@ p {
   width: auto;
   margin: 0 10vw 10vh 10vw;
   font-size: 1em;
-  text-align: center;
+  text-align: left;
 }
 
 a {
