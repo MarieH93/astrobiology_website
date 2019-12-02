@@ -8,6 +8,7 @@ body{
 
 div.navbar {
  min-height: 80px;
+ max-height: 90px;
 }
 
 div:not  {
